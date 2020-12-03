@@ -1,0 +1,413 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov 15 23:49:50 2020
+# Process ID: 23888
+# Current directory: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1
+# Command line: vivado.exe -log zcu104_base_vcu_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu104_base_vcu_0_2.tcl
+# Log file: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/zcu104_base_vcu_0_2.vds
+# Journal file: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zcu104_base_vcu_0_2.tcl -notrace
+Command: synth_design -top zcu104_base_vcu_0_2 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8616
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rdata_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:216]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rresp_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:217]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rvalid_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:218]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_vcu_rready_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:219]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_vcu_arvalid_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:220]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_arready_axi_lite_apb is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:221]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_gasket_enable is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:273]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_sel is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:300]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_ck_sel is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:301]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_fract_en is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:302]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_fract_clk_sel is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:303]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_high_enable is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:305]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_low_enable is not allowed [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ipshared/675f/hdl/vcu_v1_2_syn_rfs.v:306]
+WARNING: [Synth 8-2507] parameter declaration becomes local in vcu_v1_2_2_vcu with formal parameter declaration list [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:608]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1668.078 ; gain = 84.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zcu104_base_vcu_0_2' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:60]
+INFO: [Synth 8-6157] synthesizing module 'vcu_v1_2_2_vcu' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:68]
+	Parameter C_VCU_AXILITEAPB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_VCU_ENC0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_ENC1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_DEC0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_DEC1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_MCU_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter HDL_PIPELINE_DEPTH bound to: 6 - type: integer 
+	Parameter C_RATIO bound to: 56 - type: integer 
+	Parameter C_RATIO_CORE bound to: 56 - type: integer 
+	Parameter C_ENCB11_CORE42_IN bound to: 16 - type: integer 
+	Parameter C_ENCB11_CORE42_OUT bound to: 6 - type: integer 
+	Parameter C_ENCA33_CORE39 bound to: 24 - type: integer 
+	Parameter C_ENCA32_CORE38 bound to: 24 - type: integer 
+	Parameter C_ENCA12_CORE18 bound to: 24 - type: integer 
+	Parameter C_ENCA31_CORE37 bound to: 24 - type: integer 
+	Parameter C_ENCA13_CORE19 bound to: 22 - type: integer 
+	Parameter C_ENCA11_CORE17 bound to: 22 - type: integer 
+	Parameter C_GPU31_CORE22 bound to: 0 - type: integer 
+	Parameter C_IOU19_CORE12 bound to: 0 - type: integer 
+	Parameter C_IOU17_CORE13 bound to: 0 - type: integer 
+	Parameter C_IOU18_CORE16 bound to: 0 - type: integer 
+	Parameter C_CORE21_DEC15 bound to: 24 - type: integer 
+	Parameter C_CORE40_DEC35 bound to: 24 - type: integer 
+	Parameter C_CORE41_DEC34 bound to: 24 - type: integer 
+	Parameter C_CORE20_DEC36 bound to: 23 - type: integer 
+	Parameter ENABLEENCODER bound to: TRUE - type: string 
+	Parameter ENABLEDECODER bound to: TRUE - type: string 
+	Parameter ENCODERCODING bound to: H.265 - type: string 
+	Parameter DECODERCODING bound to: H.265 - type: string 
+	Parameter ENCODERCODINGTYPE bound to: INTRA_ONLY - type: string 
+	Parameter DECODERCODINGTYPE bound to: INTRA_ONLY - type: string 
+	Parameter ENCHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter ENCVERRESOLUTION bound to: 2160 - type: integer 
+	Parameter DECHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter DECVERRESOLUTION bound to: 2160 - type: integer 
+	Parameter ENCODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter DECODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter ENCODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter DECODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter CORECLKFREQ bound to: 667 - type: integer 
+	Parameter ENCODERNUMCORES bound to: 4 - type: integer 
+	Parameter DECODERNUMCORES bound to: 2 - type: integer 
+	Parameter HDL_TEST_PORT_EN bound to: 0 - type: integer 
+	Parameter HDL_VCU_TEST_EN bound to: 0 - type: integer 
+	Parameter HDL_ENCODER_EN bound to: 1 - type: integer 
+	Parameter HDL_DECODER_EN bound to: 1 - type: integer 
+	Parameter HDL_TABLE_NO bound to: 0 - type: integer 
+	Parameter HDL_MEM_DEPTH bound to: 0 - type: integer 
+	Parameter HDL_RAM_TYPE bound to: 0 - type: integer 
+	Parameter HDL_PLL_BYPASS bound to: 0 - type: integer 
+	Parameter HDL_MEMORY_SIZE bound to: 2 - type: integer 
+	Parameter HDL_COLOR_DEPTH bound to: 1 - type: integer 
+	Parameter HDL_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_COLOR_FORMAT bound to: 1 - type: integer 
+	Parameter HDL_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_CODING_TYPE bound to: 0 - type: integer 
+	Parameter HDL_ENC_BUFFER_EN bound to: 0 - type: integer 
+	Parameter HDL_FPS bound to: 60 - type: integer 
+	Parameter HDL_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_MCU_CLK bound to: 444 - type: integer 
+	Parameter HDL_PLL_CLK_HI bound to: 33 - type: integer 
+	Parameter HDL_PLL_CLK_LO bound to: 0 - type: integer 
+	Parameter HDL_CORE_CLK bound to: 667 - type: integer 
+	Parameter HDL_NUM_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_MAX_NUM_CORES bound to: 0 - type: integer 
+	Parameter HDL_NUM_CONCURRENT_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_DEC_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_DEC_FPS bound to: 60 - type: integer 
+	Parameter HDL_DEC_CODING_TYPE bound to: 0 - type: integer 
+	Parameter HDL_DEC_COLOR_DEPTH bound to: 1 - type: integer 
+	Parameter HDL_DEC_COLOR_FORMAT bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_MANUAL_OVERRIDE bound to: 0 - type: integer 
+	Parameter HDL_ENC_BUFFER_MOTION_VEC_RANGE bound to: 0 - type: integer 
+	Parameter HDL_ENC_BUFFER_B_FRAME bound to: 0 - type: integer 
+	Parameter HDL_WPP_EN bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_CLK bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_CLK bound to: 1077936128 - type: integer 
+	Parameter HDL_AXI_ENC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_BASE bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_RANGE bound to: 0 - type: integer 
+	Parameter log2_C_RAM_DEPTH bound to: 0 - type: integer 
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in1' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:742]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in2' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:743]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in3' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:744]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in4' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:745]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in5' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:746]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in6' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:747]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in7' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:748]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in8' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:749]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in9' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:750]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in10' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:751]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in11' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:752]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in12' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:753]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in13' has an internal driver [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:754]
+INFO: [Synth 8-6157] synthesizing module 'VCU' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:81758]
+	Parameter CORECLKREQ bound to: 667 - type: integer 
+	Parameter DECHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter DECODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter DECODERCODING bound to: H.265 - type: string 
+	Parameter DECODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter DECODERNUMCORES bound to: 2 - type: integer 
+	Parameter DECVERTRESOLUTION bound to: 2160 - type: integer 
+	Parameter ENABLEDECODER bound to: TRUE - type: string 
+	Parameter ENABLEENCODER bound to: TRUE - type: string 
+	Parameter ENCHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter ENCODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter ENCODERCODING bound to: H.265 - type: string 
+	Parameter ENCODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter ENCODERNUMCORES bound to: 4 - type: integer 
+	Parameter ENCVERTRESOLUTION bound to: 2160 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'VCU' (1#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:81758]
+WARNING: [Synth 8-689] width (2) of port connection 'VCUPLENCALL2CADDR' does not match port width (17) of module 'VCU' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:1508]
+INFO: [Synth 8-6155] done synthesizing module 'vcu_v1_2_2_vcu' (3#1) [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/vcu_v1_2_2_vcu.v:68]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in1' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in2' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in3' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in4' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in5' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in6' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in7' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in8' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in9' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in10' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in11' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in12' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'pl_vcu_spare_port_in13' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out1' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out2' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out3' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out4' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out5' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out6' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out7' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out8' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out9' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out10' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out11' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out12' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pl_spare_port_out13' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7071] port 'vcu_pwr_stable' of module 'vcu_v1_2_2_vcu' is unconnected for instance 'inst' [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+WARNING: [Synth 8-7023] instance 'inst' of module 'vcu_v1_2_2_vcu' has 312 connections declared, but only 285 given [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:812]
+INFO: [Synth 8-6155] done synthesizing module 'zcu104_base_vcu_0_2' (4#1) [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/synth/zcu104_base_vcu_0_2.v:60]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1726.879 ; gain = 143.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1744.742 ; gain = 160.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1744.742 ; gain = 160.996
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1756.805 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/zcu104_base_vcu_0_2_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/zcu104_base_vcu_0_2_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/constraints/vcu.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/49842/Desktop/zcu104_base/zcu104_base.srcs/sources_1/bd/zcu104_base/ip/zcu104_base_vcu_0_2/constraints/vcu.xdc] for cell 'inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1833.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1833.301 ; gain = 0.004
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1833.301 ; gain = 249.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1833.301 ; gain = 249.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1833.301 ; gain = 249.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cState_reg' in module 'vcu_v1_2_2_registers'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                 iSTATE5 |                          0000001 |                             0000
+                 iSTATE5 |                          0000001 |                             0000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cState_reg' using encoding 'one-hot' in module 'vcu_v1_2_2_registers'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1833.301 ; gain = 249.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	              320 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	  14 Input   32 Bit        Muxes := 1     
+	  17 Input   32 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 7     
+	   5 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   6 Input    3 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1833.301 ; gain = 249.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2550.219 ; gain = 966.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2585.543 ; gain = 1001.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2589.305 ; gain = 1005.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     3|
+|2     |LUT2 |    28|
+|3     |LUT3 |    85|
+|4     |LUT4 |     8|
+|5     |LUT5 |     5|
+|6     |LUT6 |    36|
+|7     |VCU  |     1|
+|8     |FDRE |    36|
+|9     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 2594.098 ; gain = 921.793
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2594.098 ; gain = 1010.352
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2594.098 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2632.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 2632.102 ; gain = 1595.809
+INFO: [Common 17-1381] The checkpoint 'C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/zcu104_base_vcu_0_2.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zcu104_base_vcu_0_2, cache-ID = 22e1eef7b06f88c2
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_vcu_0_2_synth_1/zcu104_base_vcu_0_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zcu104_base_vcu_0_2_utilization_synth.rpt -pb zcu104_base_vcu_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 15 23:50:51 2020...

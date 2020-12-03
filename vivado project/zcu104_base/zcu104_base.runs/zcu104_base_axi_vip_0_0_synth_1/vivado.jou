@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov 15 23:16:24 2020
+# Process ID: 3096
+# Current directory: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_axi_vip_0_0_synth_1
+# Command line: vivado.exe -log zcu104_base_axi_vip_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu104_base_axi_vip_0_0.tcl
+# Log file: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_axi_vip_0_0_synth_1/zcu104_base_axi_vip_0_0.vds
+# Journal file: C:/Users/49842/Desktop/zcu104_base/zcu104_base.runs/zcu104_base_axi_vip_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zcu104_base_axi_vip_0_0.tcl -notrace
