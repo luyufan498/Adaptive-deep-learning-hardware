@@ -10,7 +10,7 @@ We want to build a convenient hardawre switch framework on embedded system to ch
 The platform comes with pre-built hardware configurations, you can switch the hardware configurations as you want.
 
 
-## What is your need to run this project?
+## What do you need to run this project?
 #### hardware 
 - ZCU104 development board
   - The design is based on zcu104. You can follow the link to build configurations for zcu102/106 or other zynqmp platforms 
