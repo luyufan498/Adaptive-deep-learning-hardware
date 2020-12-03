@@ -27,8 +27,8 @@ The platform comes with pre-built hardware configurations, you can switch the ha
 The project is now in early access. 
 We have provided some configurations supporting both DPU and VCU, but user need to run management program to trigger switch manually. Auto switch feature will be integrated in next version.
 
-The current configurations are listed as follow:
-Note: the fps means performance running facedetect with densebox_320_320 
+The current configurations are listed as follow：
+
 
 | conf | number of VCU | number of DPU | frequency of DPU(s) | fps |power|
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -38,6 +38,7 @@ Note: the fps means performance running facedetect with densebox_320_320
 | 1dpu_h | 1 | 1 | 300MHz | 742 |10.871W|
 | 2dpu_ll | 1 | 2 | 150:150MHz | 811 |10.859W|
 | 2dpu_lm | 1 | 2 | 150:200MHz | 977 |11.99W|
+###### Note: the fps means the performance running facedetect with densebox_320_320 
 
 ## How to run 
 refer to the link: https://www.hackster.io/378085/adaptive-deep-learning-hardware-for-video-analytics-f8d064
