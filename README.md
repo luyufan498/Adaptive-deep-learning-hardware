@@ -43,7 +43,7 @@ The current configurations are listed as follow：
 ## How to run 
 refer to the link and follow the instructions: https://www.hackster.io/378085/adaptive-deep-learning-hardware-for-video-analytics-f8d064
 
-ALL-IN-ONE image: https://drive.google.com/file/d/1axsFStKz79R-mJ8R3z9-eJ5-pwGJFTEg/view?usp=sharing
+ALL-IN-ONE image: https://drive.google.com/file/d/1axsFStKz79R-mJ8R3z9-eJ5-pwGJFTEg/view?usp=sharing. Download and flash it to your SD, the design will be ready to work.
 
 #### Hardware switch
 <div align=center><img width="600" src="https://github.com/luyufan498/Adaptive-deep-learning-hardware/blob/main/pic/gif_how_to_run.gif"/></div>
