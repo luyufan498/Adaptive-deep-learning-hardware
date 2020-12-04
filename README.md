@@ -42,6 +42,7 @@ The current configurations are listed as follow：
 
 ## How to run 
 refer to the link and follow the instructions: https://www.hackster.io/378085/adaptive-deep-learning-hardware-for-video-analytics-f8d064
+
 ALL-IN-ONE image: https://drive.google.com/file/d/1axsFStKz79R-mJ8R3z9-eJ5-pwGJFTEg/view?usp=sharing
 
 #### Hardware switch
