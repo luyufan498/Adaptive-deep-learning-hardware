@@ -23,7 +23,7 @@ The platform comes with pre-built hardware configurations, you can switch the ha
 - Petalinux 2020.1
 - Vitis AI 2020.1
 
-## What we have now (2020/11 version 0.99) 
+## What do we have now? (2020/11 version 0.99) 
 The project is now in early access. 
 We have provided some configurations supporting both DPU and VCU, but user need to run management program to trigger switch manually. Auto switch feature will be integrated in next version.
 
